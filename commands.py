@@ -26,8 +26,8 @@ def get_args(message):
 
 
 def handle_commands(message, command, args):
-    #if command == 'test':
-    #    return cmd_test(message, args)
+    if command == 'test':
+        return cmd_test(message, args)
     if command == 'ping':
         return ping(message)
     if command == 'zitat' or command == 'quote':
@@ -105,4 +105,4 @@ async def cmd_load(message, count, max_count=20):
 
 
 def cmd_test(message, args):
-    return ''
+    return 'NO U'
