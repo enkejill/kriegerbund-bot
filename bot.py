@@ -1,7 +1,6 @@
 # discord bot - main application
 import discord
 import random
-import traceback
 import subprocess
 import os
 import sys
